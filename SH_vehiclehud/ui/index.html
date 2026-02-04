@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle HUD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="vehicle-hud" class="hidden">
+        <div class="hud-container" id="draggable-hud">
+            
+            <div id="save-hud-btn">VALIDER</div>
+            <div class="drag-handle"></div>
+
+            <div class="stats-vertical-container">
+                
+                <div class="stat-bar lock small-icon">
+                    <div class="stat-info">
+                        <i class="fas fa-unlock" id="lock-icon"></i>
+                        <span class="value" id="lock-text">OUVERT</span>
+                    </div>
+                </div>
+
+                <div class="stat-bar seatbelt small-icon">
+                    <div class="stat-info">
+                        <i class="fas fa-user-slash" id="seatbelt-icon"></i>
+                        <span class="value" id="seatbelt-text">Détaché</span>
+                    </div>
+                </div>
+
+                <div class="stat-bar cruise small-icon">
+                    <div class="stat-info">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span class="value" id="cruise-text">LIMITEUR</span>
+                    </div>
+                </div>
+
+                <div class="stat-bar fuel small-icon">
+                    <div class="stat-info">
+                        <i class="fas fa-gas-pump"></i>
+                        <span class="value fuel-pc">100%</span>
+                    </div>
+                    <div class="bar-progress-mini">
+                        <div class="bar-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-section">
+                
+                <div class="indicators">
+                    <i class="fas fa-chevron-left indicator" id="ind-left"></i>
+                    <i class="fas fa-chevron-right indicator" id="ind-right"></i>
+                </div>
+
+                <div class="speed-value">
+                    <span class="number">0</span>
+                    <span class="unit">KM/H</span>
+                </div>
+                
+                <div class="gear-info">
+                    <span class="gear">N</span>
+                </div>
+                
+                <div class="rpm-bar">
+                    <div class="rpm-segments">
+                        <div class="segment"></div><div class="segment"></div><div class="segment"></div>
+                        <div class="segment"></div><div class="segment"></div><div class="segment"></div>
+                        <div class="segment"></div><div class="segment"></div><div class="segment"></div>
+                        <div class="segment"></div>
+                    </div>
+                    <div class="rpm-fill"></div>
+                </div>
+
+                <div class="location-info">
+                    <span class="direction" id="direction">N</span>
+                    <span class="separator">|</span>
+                    <span class="street" id="street-name">Chargement...</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
