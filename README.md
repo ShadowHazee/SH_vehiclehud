@@ -50,9 +50,11 @@ Configurez vos préférences dans config.lua (KMH/MPH, Position par défaut, etc
 
 Redémarrez votre serveur et profitez !
 
-📋 Prérequis
+📋 Prérequis :
+
 ESX Framework (es_extended)
 
 Optionnel : ox_fuel ou LegacyFuel (Détecté automatiquement, sinon utilise le système natif).
 
 By Shadow Haze🧙
+<img width="1920" height="1080" alt="Sans titre-1" src="https://github.com/user-attachments/assets/0e0abfea-ea6d-4473-8db2-8f88b850d62c" />
