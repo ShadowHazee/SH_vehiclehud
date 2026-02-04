@@ -3,7 +3,7 @@ Rejoignez moi sur discord pour + de scripts !
 https://discord.gg/KQCgKpPdkr
 
 🚗 SH_VehicleHUD - Le HUD Véhicule Ultime pour ESX (Gratuit)
-SH_VehicleHUD est une interface véhicule moderne, complète et entièrement gratuite pour FiveM. Conçu pour offrir une expérience de conduite immersive, ce script regroupe toutes les fonctionnalités essentielles (et même plus) dans un design épuré "Neon Style".
+SH_VehicleHUD est une interface véhicule moderne, complète et entièrement gratuite pour FiveM. Conçu pour offrir une expérience de conduite immersive, ce script regroupe toutes les fonctionnalités essentielles (et même plus) dans un design épuré.
 
 Arrêtez de payer pour des scripts basiques. Passez à la vitesse supérieure ! 🚀
 
