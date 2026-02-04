@@ -43,12 +43,16 @@ Optimisation : Code optimisé pour ne pas impacter les FPS (resmon faible).
 Téléchargez le dossier.
 
 Glissez le dossier SH_vehiclehud dans votre dossier resources.
+
 Ajoutez ensure SH_vehiclehud dans votre server.cfg.
+
 Configurez vos préférences dans config.lua (KMH/MPH, Position par défaut, etc.).
+
 Redémarrez votre serveur et profitez !
 
 📋 Prérequis
 ESX Framework (es_extended)
+
 Optionnel : ox_fuel ou LegacyFuel (Détecté automatiquement, sinon utilise le système natif).
 
 By Shadow Haze🧙
